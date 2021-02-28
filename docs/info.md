@@ -25,3 +25,11 @@
 ### font
 
 - html 파일에 링크형식으로 넣는것이 더 선호됨.
+
+## icon
+
+### material io
+
+- 링크 넣은 후 적절한 아이콘 태그 찾아서 사용
+- class 는 material-icons여야함
+- font size로 사이즈를 조절
