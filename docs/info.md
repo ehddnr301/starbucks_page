@@ -96,3 +96,30 @@
 ## 7
 
 - just css
+
+## 8
+
+### border radius
+
+- border-radius : 왼쪽상단 오른쪽상단 오른쪽하단 왼쪽하단;
+
+### dropdown with max-height
+
+```
+header .main-menu .item .item__contents {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  overflow: hidden;
+}
+header .main-menu .item:hover .item__contents {
+  max-height: 500px;
+  transition: max-height 0.35s ease-in;
+}
+```
+
+- 강의내용에는 나오지 않았지만 스타벅스 웹사이트에 맞게 임의로 추가하였습니다.
+- max-height가 변하는것을 통해 구현하였고 overflow hidden으로 평소에는 보이지 않게 조절하였습니다.
+
+### 재활용
+
+- inner 를 재활용해서 중앙정렬되게 하는것이 굉장히 공부가 되었습니다.
