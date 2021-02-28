@@ -34,3 +34,36 @@
 - 링크 넣은 후 적절한 아이콘 태그 찾아서 사용
 - class 는 material-icons여야함
 - font size로 사이즈를 조절
+
+## 5
+
+### header
+
+- header tag : 기능적인 부분은 없지만 헤더영역이라는 의미
+
+### img - alt
+
+- 대체 텍스트를 지정해 이미지가 제대로 나오지 않을경우나 크롤링봇이 엑세스 할떄를 고려
+
+### font
+
+- 색 : 완전한 검정보다는 어두운 회색이 디자인적으로는 괜찮다고 합니다. #333
+- line-height : 통상적으로 1.4가 불편함이 없다고 합니다. (font별로 다릅니다.)
+
+### margin
+
+- width 설정후
+- margin 0 auto 주면 중앙정렬
+
+### 이미지 태그
+
+- `<img/>` : 인라인 요소, 마진x, 패딩x, width:x, height:x
+- 글자(인라인)는 baseline이 존재 => img태그도 inline요소이기때문에 baseline이 존재
+- 그렇기 때문에 밑에 마진이나 패딩을 주지 않았음에도 공간이 있음
+- img 에 display:block을 주면 baseline이 사라져서 공간이 사라지게 됩니다.
+
+### 상하 중앙정렬
+
+- position absolute
+- top: 0;, bottom: 0;, margin: auto;
+- display flex만 사용해왔었는데 flex를 못쓰는 상황이 온다면 유용할 방법일듯 합니다.
