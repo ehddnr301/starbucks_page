@@ -67,3 +67,20 @@
 - position absolute
 - top: 0;, bottom: 0;, margin: auto;
 - display flex만 사용해왔었는데 flex를 못쓰는 상황이 온다면 유용할 방법일듯 합니다.
+
+## 6
+
+### a:href
+
+- 임시적으로 넣을때
+  - `#` 넣기 - 혹시 어떤 동작이 될수도 있습니다.
+  - `javascript:void(0)` 을 넣기 - 권장됨 : 정말로 아무동작도 안함
+
+### 가상요소 선택자
+
+- `::before` : 내부의 앞쪽에 어떤 내용을 추가 content라는 속성으로 그 요소를 지정가능
+- before : 인라인 요소
+
+### position
+
+- fixed, absolute 를 주게되면 block 요소로 변함
