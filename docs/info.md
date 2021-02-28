@@ -123,3 +123,7 @@ header .main-menu .item:hover .item__contents {
 ### 재활용
 
 - inner 를 재활용해서 중앙정렬되게 하는것이 굉장히 공부가 되었습니다.
+
+## 9 & 10
+
+- just css & BEM
