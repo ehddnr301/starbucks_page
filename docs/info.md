@@ -84,3 +84,15 @@
 ### position
 
 - fixed, absolute 를 주게되면 block 요소로 변함
+
+### transition
+
+- 기본으로 all, 변화하는것에대해 속성을 줌
+
+### js연결
+
+- script 태그의 `defer` 속성을 주면 html을 다 보고 난 뒤에 불러와짐
+
+## 7
+
+- just css
