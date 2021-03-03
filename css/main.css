@@ -268,7 +268,7 @@ header .badges .badge {
 }
 .visual .cup1.text {
   position: absolute;
-  bottom: 38px;
+  top: 38px;
   right: 171px;
 }
 .visual .cup2.image {
@@ -285,4 +285,7 @@ header .badges .badge {
   position: absolute;
   bottom: 0;
   right: 275px;
+}
+.visual .fade-in {
+  opacity: 0;
 }

@@ -2,6 +2,8 @@ const searchEl = document.querySelector(".search");
 const searchInputEl = searchEl.querySelector("input");
 // badge
 const badgeEl = document.querySelector("header .badges");
+// fade
+const fadeEls = document.querySelectorAll(".fade-in");
 
 searchEl.addEventListener("click", function () {
   searchInputEl.focus();
@@ -37,3 +39,11 @@ window.addEventListener(
     300 // 0.3초 단위로 부하를 줘서 함수가 우르르 실행되는것을 방지 = throttle
   )
 );
+
+// * fade-in
+fadeEls.forEach(function (fadeEl, index) {
+  gsap.to(fadeEl, 1, {
+    delay: (index + 1) * 0.7,
+    opacity: 1,
+  });
+});
