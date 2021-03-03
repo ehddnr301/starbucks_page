@@ -155,3 +155,17 @@ header .main-menu .item:hover .item__contents {
 ## 13 & 14 & 15 & 16
 
 - just css and js
+
+## 17
+
+### swiperjs
+
+```
+new Swiper(".notice-line .swiper-container", {
+  direction: "vertical",
+  autoplay: true,
+  loop: true,
+});
+```
+
+- 직관적이고 쉽게 구현이가능하다
