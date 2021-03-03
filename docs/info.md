@@ -152,6 +152,6 @@ header .main-menu .item:hover .item__contents {
 - 애니메이션이 자바스크립트로 쉽게 만듬
 - `gsap.to(요소, 지속시간, 옵션)`
 
-## 13
+## 13 & 14 & 15 & 16
 
-- just css
+- just css and js
