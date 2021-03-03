@@ -169,3 +169,19 @@ new Swiper(".notice-line .swiper-container", {
 ```
 
 - 직관적이고 쉽게 구현이가능하다
+
+## 18
+
+### calc
+
+- css애서 clac(100% -50px) 등으로 width를 지정해줄수있다.
+
+### 정중앙에 위치시키기
+
+```
+left: 50%;
+margin-left: -1238.5px;
+```
+
+- 절반만큼 밀고
+- 절반만큼 당겨오고
