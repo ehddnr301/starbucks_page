@@ -185,3 +185,9 @@ margin-left: -1238.5px;
 
 - 절반만큼 밀고
 - 절반만큼 당겨오고
+
+## 19 & 20
+
+### pagination & navigation
+
+- use swiperjs
