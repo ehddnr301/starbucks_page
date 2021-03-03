@@ -127,3 +127,16 @@ header .main-menu .item:hover .item__contents {
 ## 9 & 10
 
 - just css & BEM
+
+## 11
+
+### 이미지 border-radius
+
+- img 태그에 border-radius 를 주면 태그만 깎여나가기 때문에
+- overflow hidden 을 함께 줌으로써 이미지도 함께 둥근 모서리를 가질수 있도록 한다.
+
+### position
+
+- position absolute 나 fixed같은 경우 width를 최소한만 사용하도록 바뀐다.
+  - 보통 block요소는 가로가 100퍼
+- 그래서 width 100%로 해결해준다.

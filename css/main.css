@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-family: "Jua", sans-serif;
+  height: 3000px;
 }
 img {
   display: block;
@@ -19,6 +20,10 @@ a {
 
 /* HEADER */
 header {
+  /* position: relative; */
+  width: 100%; /* fixed때문에 줄어든걸 해소하기 위해서 */
+  position: fixed; /* absolute나 fixed 주게되면 가로너비를 최소로 사용하려함 */
+  top: 0;
   background-color: #f6f5f0;
   border-bottom: 1px solid #c8c8c8;
 }
@@ -169,4 +174,19 @@ header .main-menu .item .item__contents .contents__texture h4 {
 header .main-menu .item .item__contents .contents__texture p {
   color: #669900;
   margin: 4px 0 14px;
+}
+
+/* header 태그 안에 있는 옆에 뱃지 부분 */
+header .badges {
+  position: absolute;
+  top: 132px;
+  right: 12px;
+}
+header .badges .badge {
+  border-radius: 10px;
+  overflow: hidden; /* 모서리를 깎는데 이미지도 깎여나가라고 hidden */
+  margin-bottom: 12px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background: transparent;
 }
