@@ -140,3 +140,18 @@ header .main-menu .item:hover .item__contents {
 - position absolute 나 fixed같은 경우 width를 최소한만 사용하도록 바뀐다.
   - 보통 block요소는 가로가 100퍼
 - 그래서 width 100%로 해결해준다.
+
+## 12
+
+### lodash
+
+- `_.throttle` 을 사용해서 이벤트 리스너가 너무 자주 동작하지 않도록 하여줍니다.
+
+### gsap
+
+- 애니메이션이 자바스크립트로 쉽게 만듬
+- `gsap.to(요소, 지속시간, 옵션)`
+
+## 13
+
+- just css
