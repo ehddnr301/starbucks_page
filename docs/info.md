@@ -191,3 +191,9 @@ margin-left: -1238.5px;
 ### pagination & navigation
 
 - use swiperjs
+
+## 21
+
+### classList
+
+- add, remove로 클래스 추가삭제를 함으로써 css로 제어
