@@ -197,3 +197,8 @@ margin-left: -1238.5px;
 ### classList
 
 - add, remove로 클래스 추가삭제를 함으로써 css로 제어
+
+## 22
+
+- just css
+- 현재 스타벅스와 조금 달라서 새로만들기
