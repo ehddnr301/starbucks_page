@@ -201,4 +201,16 @@ margin-left: -1238.5px;
 ## 22
 
 - just css
-- 현재 스타벅스와 조금 달라서 새로만들기
+
+## 23
+
+### width & padding-top
+
+- 부모요소에 width:200px
+- 자식요소에
+  - height:0;
+  - padding-top:50%;
+- 이렇게하면 height가 부모,자식 요소에 둘다 없으니까 나타나지않아야 한다고 생각되지만
+- height가 100px로 만들어진다.
+- 그렇다면 16:9 같은 영상비율을 만들려면 width를 부모요소에 지정해주고
+- padding-top:56.25%; 로 적어주면 된다.
