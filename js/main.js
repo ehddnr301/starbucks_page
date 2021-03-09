@@ -77,8 +77,19 @@ new Swiper(".promotion .swiper-container", {
     nextEl: ".promotion .swiper-next",
   },
 });
+// * awards with swiperjs
+new Swiper(".awards .swiper-container", {
+  autoplay: true,
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
+    prevEl: ".awards .swiper-prev",
+    nextEl: ".awards .swiper-next",
+  },
+});
 
-// 프로모션
+// * 프로모션
 promotionToggleBtn.addEventListener("click", function () {
   isHidePromotion = !isHidePromotion;
   if (isHidePromotion) {
@@ -89,11 +100,11 @@ promotionToggleBtn.addEventListener("click", function () {
   }
 });
 
-// random
+// * random
 function random(min, max) {
   return parseFloat((Math.random() * (max - min) + min).toFixed(2));
 }
-// floating
+// * floating
 function floatingObject(selector, delay, size) {
   gsap.to(selector, random(1.5, 2.5), {
     y: size,
@@ -107,7 +118,7 @@ floatingObject(".floating1", 1, 15);
 floatingObject(".floating2", 0.5, 15);
 floatingObject(".floating3", 1.5, 20);
 
-// scrollMagic
+// * scrollMagic
 spyEls.forEach(function (spyEl) {
   new ScrollMagic.Scene({
     triggerElement: spyEl, // * 감시 대상
