@@ -8,7 +8,8 @@ const fadeEls = document.querySelectorAll(".fade-in");
 const promotionEl = document.querySelector(".promotion");
 const promotionToggleBtn = document.querySelector(".toggle-promotion");
 let isHidePromotion = false;
-// floating
+// scrollMagic
+const spyEls = document.querySelectorAll("section.scroll-spy");
 
 searchEl.addEventListener("click", function () {
   searchInputEl.focus();
@@ -105,3 +106,13 @@ function floatingObject(selector, delay, size) {
 floatingObject(".floating1", 1, 15);
 floatingObject(".floating2", 0.5, 15);
 floatingObject(".floating3", 1.5, 20);
+
+// scrollMagic
+spyEls.forEach(function (spyEl) {
+  new ScrollMagic.Scene({
+    triggerElement: spyEl, // * 감시 대상
+    triggerHook: 0.8,
+  })
+    .setClassToggle()
+    .addTo();
+});

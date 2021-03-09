@@ -241,3 +241,22 @@ margin-left: -1238.5px;
 
 - flex-direction column으로 주로 세로정렬을 사용했는데
 - 꼭 필요한 경우가 아니면 width 제한하고 flex-wrap : wrap도 괜찮을듯!
+
+## 27
+
+### backface-visibility
+
+- 뒷면을 보일지 말지 설정해주는 속성
+- 뒷면이란 : rotateX나 rotateY 를 사용할때
+- hidden으로 설정했을때 rotateY(180deg)로 뒤집어 놓는다면 보여지지 않음
+
+### perspective
+
+- 원근법 설정
+
+## 28
+
+### ScrollMagic
+
+- 스크롤 함에따라 이벤트가 나타나야할때 사용
+- 감시대상, 감지위치 등 설정해줌
