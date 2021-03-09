@@ -265,3 +265,7 @@ margin-left: -1238.5px;
 
 - transition 이 적용되는 요소가 다른 공통 css에 의해 또 transition 이 있으면 overwrite 될수있으니
 - 주의하여 다른 div로 묶어 사용하거나 한다.
+
+## 30 & 31
+
+- just css, swiperjs

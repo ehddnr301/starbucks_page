@@ -10,6 +10,8 @@ const promotionToggleBtn = document.querySelector(".toggle-promotion");
 let isHidePromotion = false;
 // scrollMagic
 const spyEls = document.querySelectorAll("section.scroll-spy");
+// year
+const thisYear = document.querySelector(".this-year");
 
 searchEl.addEventListener("click", function () {
   searchInputEl.focus();
@@ -127,3 +129,6 @@ spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEls, "show")
     .addTo(new ScrollMagic.Controller());
 });
+
+// * year
+thisYear.textContent = new Date().getFullYear();
