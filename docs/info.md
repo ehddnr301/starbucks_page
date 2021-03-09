@@ -220,3 +220,13 @@ margin-left: -1238.5px;
 ### Youtube Iframe
 
 - 유튜브 영상 사용하는 방법
+
+## 25
+
+### gsap easing
+
+- 애니메이션을 부드럽게 하길 원한다면 잘 살펴보고 설정할 것
+
+### 반복 animation
+
+- gsap을 사용하여 구현되었습니다.
