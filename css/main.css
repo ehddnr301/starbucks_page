@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-family: "Jua", sans-serif;
-  height: 3000px;
+  height: 6000px;
 }
 img {
   display: block;
@@ -64,7 +64,7 @@ a {
   border-color: #fff;
 }
 .btn.btn--white:hover {
-  color: #333;
+  color: #fff;
   border-color: #fff;
 }
 
@@ -553,8 +553,84 @@ header .badges .badge {
   top: 350px;
   left: 150px;
 }
-.youtube .floating3 {
+
+/* SEASON PRODUCT */
+.season-product {
+  background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2021/2021_spring_bean_bg.jpg");
+}
+.season-product .product {
   position: absolute;
-  bottom: -200px;
+  bottom: 50px;
+}
+.season-product .inner {
+  height: 570px;
+}
+.season-product .floating3 {
+  position: absolute;
+  top: -200px;
   right: 0;
+}
+.season-product .text-group {
+  position: absolute;
+  top: 180px;
+  right: 100px;
+}
+.season-product .text-group .more {
+  margin-top: 15px;
+}
+
+/* RESERVE COFFEE */
+.reserve-coffee {
+  background: url("//image.istarbucks.co.kr/upload/common/img/main/2021/reserve_costarica_bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.reserve-coffee .inner {
+  height: 400px;
+  background: transparent;
+  vertical-align: baseline;
+}
+.reserve-coffee .reserve-logo {
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+.reserve-coffee .more {
+  z-index: 5;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 246px;
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+.reserve-coffee .product {
+  z-index: 1;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+}
+
+/* PICK YOUR FAVORITE */
+.pick-your-favorite {
+  background-image: url("../images/favorite_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.pick-your-favorite .inner {
+  padding: 110px 0;
+}
+.pick-your-favorite .text-group {
+  display: flex;
+  width: 362px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.pick-your-favorite .text-group .title {
+  margin-bottom: 40px;
+}
+.pick-your-favorite .text-group .description {
+  margin-bottom: 40px;
 }

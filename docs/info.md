@@ -230,3 +230,14 @@ margin-left: -1238.5px;
 ### 반복 animation
 
 - gsap을 사용하여 구현되었습니다.
+
+## 26
+
+### background-attachment
+
+- fixed 를 주면 스크롤에따라 너비는 변하지않지만 background 다른부분이 보임
+
+### flex
+
+- flex-direction column으로 주로 세로정렬을 사용했는데
+- 꼭 필요한 경우가 아니면 width 제한하고 flex-wrap : wrap도 괜찮을듯!
