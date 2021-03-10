@@ -23,7 +23,7 @@ a {
   border-radius: 4px;
   color: #333;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   cursor: pointer;
   box-sizing: border-box;
@@ -65,6 +65,14 @@ a {
 .btn.btn--white:hover {
   color: #fff;
   border-color: #fff;
+}
+.btn.btn--orange {
+  color: #ea784c;
+  border-color: #ea784c;
+}
+.btn.btn--orange:hover {
+  color: #fff;
+  background-color: #ea784c;
 }
 .back-to-position {
   opacity: 0;
@@ -256,7 +264,7 @@ header .main-menu .item .item__contents .contents__texture p {
 header .badges {
   position: absolute;
   top: 132px;
-  right: 12px;
+  right: 110px;
 }
 header .badges .badge {
   border-radius: 10px;
@@ -278,38 +286,43 @@ header .badges .badge {
 }
 .visual .title {
   position: absolute;
-  top: 88px;
+  top: 80px;
   left: -10px;
 }
 .visual .title .btn {
   position: absolute;
-  top: 259px;
+  top: 130px;
   left: 173px;
 }
 .visual .cup1.image {
   position: absolute;
-  bottom: 0;
-  right: -47px;
+  bottom: 100px;
+  left: 190px;
 }
 .visual .cup1.text {
   position: absolute;
-  top: 38px;
-  right: 171px;
+  bottom: 38px;
+  left: 300px;
 }
 .visual .cup2.image {
   position: absolute;
-  bottom: 0;
-  right: 162px;
+  bottom: 180px;
+  left: 400px;
 }
 .visual .cup2.text {
   position: absolute;
-  bottom: 321px;
-  right: 416px;
+  bottom: 80px;
+  left: 565px;
 }
-.visual .spoon {
+.visual .cup3.image {
   position: absolute;
-  bottom: 0;
-  right: 275px;
+  bottom: 70px;
+  right: 20px;
+}
+.visual .cup3.text {
+  position: absolute;
+  bottom: 38px;
+  right: 50px;
 }
 .visual .fade-in {
   opacity: 0;
