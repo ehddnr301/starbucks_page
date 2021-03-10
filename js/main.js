@@ -12,6 +12,8 @@ let isHidePromotion = false;
 const spyEls = document.querySelectorAll("section.scroll-spy");
 // year
 const thisYear = document.querySelector(".this-year");
+// to-top
+const toTopEl = document.querySelector("#to-top");
 
 searchEl.addEventListener("click", function () {
   searchInputEl.focus();
@@ -37,10 +39,16 @@ window.addEventListener(
           opacity: 0,
           display: "none",
         }); // 애니메이션(요소, 지속시간, 옵션)
+        gsap.to(toTopEl, 0.2, {
+          x: 0,
+        });
       } else {
         gsap.to(badgeEl, 0.6, {
           opacity: 1,
           display: "block",
+        });
+        gsap.to(toTopEl, 0.2, {
+          x: 100,
         });
       }
     },
@@ -132,3 +140,10 @@ spyEls.forEach(function (spyEl) {
 
 // * year
 thisYear.textContent = new Date().getFullYear();
+
+// * to-top
+toTopEl.addEventListener("click", function () {
+  gsap.to(window, 0.7, {
+    scrollTo: 0,
+  });
+});
