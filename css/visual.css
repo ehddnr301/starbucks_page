@@ -1,0 +1,52 @@
+/* Visual */
+.visual {
+  margin-top: 120px;
+  background-image: url("../images/visual_bg.jpg");
+  background-position: center;
+}
+.visual .inner {
+  height: 646px;
+}
+.visual .title {
+  position: absolute;
+  top: 80px;
+  left: -10px;
+}
+.visual .title .btn {
+  position: absolute;
+  top: 130px;
+  left: 173px;
+}
+.visual .cup1.image {
+  position: absolute;
+  bottom: 100px;
+  left: 190px;
+}
+.visual .cup1.text {
+  position: absolute;
+  bottom: 38px;
+  left: 300px;
+}
+.visual .cup2.image {
+  position: absolute;
+  bottom: 180px;
+  left: 400px;
+}
+.visual .cup2.text {
+  position: absolute;
+  bottom: 80px;
+  left: 565px;
+}
+.visual .cup3.image {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+}
+.visual .cup3.text {
+  position: absolute;
+  bottom: 38px;
+  right: 50px;
+}
+.visual .fade-in {
+  opacity: 0;
+}
