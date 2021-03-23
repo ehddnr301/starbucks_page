@@ -1,9 +1,12 @@
+import { toTopEl } from "./toTop.js";
+import { throttle } from "./util.js";
+
 const badgeEl = document.querySelector("header .badges");
 
 // badges
 window.addEventListener(
   "scroll",
-  _.throttle(
+  throttle(
     function () {
       if (window.scrollY > 500) {
         gsap.to(badgeEl, 0.6, {
